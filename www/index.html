@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Change the url below to your site. -->
+    <script src="cordova.js"></script>
+    <script type="text/javascript">
+   //window.location = 'http://milkpaper.in/?appp=1';
+
+
+document.addEventListener("offline", onOffline, false);
+
+function onOffline() {
+    window.location = 'error.html';
+}
+
+document.addEventListener("online", onOnline, false);
+
+function onOnline() {
+    window.location = 'http://fresh-batter.com/dreamer';
+}
+
+
+
+
+    </script>
+</head>
+<body>
+</body>
+</html>
